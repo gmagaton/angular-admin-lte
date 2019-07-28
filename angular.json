@@ -24,9 +24,21 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/admin-lte/bower_components/bootstrap/dist/css/bootstrap.css",
+              "node_modules/admin-lte/bower_components/font-awesome/css/font-awesome.css",
+              "node_modules/admin-lte/bower_components/select2/dist/css/select2.css",
+              "node_modules/admin-lte/dist/css/AdminLTE.css",
+              "node_modules/admin-lte/dist/css/skins/skin-blue.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/admin-lte/bower_components/jquery/dist/jquery.js",
+              "node_modules/admin-lte/bower_components/bootstrap/dist/js/bootstrap.js",
+              "node_modules/admin-lte/bower_components/select2/dist/js/select2.js",
+              "node_modules/admin-lte/dist/js/adminlte.js",
+              "src/assets/custom.js"
+
+            ]
           },
           "configurations": {
             "production": {
@@ -86,7 +98,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              
+            ]
           }
         },
         "lint": {
@@ -115,6 +129,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "angular-admin-lte"
 }
